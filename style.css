@@ -1,0 +1,79 @@
+/* Styling for the navigation bar */
+nav {
+    background-color: black;
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+/* Styling for the heading */
+h1 {
+    background-color: gray;
+    font-size: 30px;
+    padding: 70px;
+    text-align: center;
+    margin: 0;
+}
+
+/* Default styling for paragraphs using the Roboto font */
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Styling for navigation list items */
+li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+}
+
+/* Default styling for the body */
+body {
+    width: auto;
+    height: auto;
+    margin: 0;
+}
+
+/* Styling for subheadings */
+h2 {
+    text-align: left;
+    color: red;
+    margin: 0;
+}
+
+/* Styling for title class */
+.title {
+    text-align: left;
+    margin: 0;
+}
+
+/* Styling for title1 class */
+.title1 {
+    text-align: left;
+    margin: 0;
+}
+
+/* Styling for form element */
+form {
+    text-align: left;
+    margin: 0;
+}
+
+/* Styling for images */
+img {
+    max-width: 10%;
+    max-height: 10%;
+    margin-left: 90%;
+}
+
+/* Styling for the footer */
+footer { 
+    background-color: rgb(203, 193, 193);
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    padding: 0;
+}

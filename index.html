@@ -1,39 +1,73 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <!-- Link to external stylesheet -->
+  <link rel="stylesheet" href="./style.css">
   <title>Checkpoint Objective</title>
 </head>
 <body>
+  <!-- Header Section -->
   <header>
     <h1>Welcome to Our Website</h1>
     <nav>
-      <ul>
         <li><a href="#">Home</a></li>
-        <li><a href="#">About me</a></li>
-
-      </ul>
+        <!-- Added an ID to link to 'About me' section -->
+        <li><a href="#about">About me</a></li>
+        <li><a href="#">Contact me</a></li>
     </nav>
   </header>
 
-  <main>
-    <section>
-      <h2>About me</h2>
-      <p>Im Ali boudokhane i did a checkpoint</p>
-    </section>
+  <!-- Image Section -->
+  <img src="asset/me.jpg" alt="My Image"/>
 
-  </main>
+  <!-- About and Contact Section -->
   <section>
-    <h2>Video</h2>
-    <video controls>
-      <a href="https://gomycode.tn/"></a>
-    </video>
+    <br>
+    <h2>About me:</h2>
+    <br>
+    <p class="title">Im Ali Boudokhane. I did a checkpoint.</p>
+    <br>
+    <!-- Additional line breaks for spacing -->
+    <br>
+    <br>
+    <br>
+    <h2>Contact me:</h2>
+    <br>
+    <p class="title1">Email: boudokhaneali@outlook.fr<br>
+       Number: 93105016</p>
+    <br>
+    <br>
+    <br>
   </section>
 
+  <!-- Contact Form Section -->
   <section>
-    <h2>Audio</h2>
-    <audio controls>
-      <source src="sample.mp3" type="audio/mpeg">
-      Your browser does not support the audio tag.
-    </audio>
+    <br>
+    <h2>Contact Form:</h2>
+    <br>
+    <form>
+      <!-- Input fields -->
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name"><br>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email"><br>
+      
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" placeholder="Type your message here"></textarea><br>
+      
+      <!-- Submit button -->
+      <input type="submit" value="Submit">
+    </form>
   </section>
-</main>
+
+  <!-- Footer Section -->
+  <br>
+  <br>
+  <footer>
+    <!-- Copyright notice -->
+    <p>&copy; 2023 Your Website. All rights reserved.</p>
+  </footer>
+</br>
+</body>
+</html>
