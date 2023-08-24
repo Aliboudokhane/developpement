@@ -1,0 +1,125 @@
+/* Apply the following rules to all elements in the document */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif; /* Use the "poppins" font family for text */
+}
+
+/* Styling for the entire body of the page */
+body {
+    display: flex; /* Use flexbox layout */
+    justify-content: center; /* Horizontally center content */
+    align-items: center; /* Vertically center content */
+    min-height: 100vh; /* Set a minimum height of 100 viewport height units */
+}  
+
+/* Styling for a container that wraps the content */
+.wrapper {
+    width: 420px; /* Set a fixed width for the container */
+    background: purple; /* Purple background color */
+    color: #fff; /* White text color */
+    border-radius: 10px; /* Rounded corners */
+    padding: 30px 40px; /* Padding inside the container */
+}
+
+/* Styling for the heading inside the wrapper */
+.wrapper h1 {
+    font-size: 36px; /* Larger font size */
+    text-align: center; /* Center align the text */
+}
+
+/* Styling for a container that wraps an input box */
+.wrapper .input-box {
+    position: relative; /* Enable positioning context */
+    width: 100%; /* Take full width of the container */
+    height: 50px; /* Set a fixed height for the input box */
+    margin: 30px 0; /* Margin top and bottom */
+}
+
+/* Styling for the input element inside the input box */
+.input-box input {
+    width: 100%; /* Take full width of the container */
+    height: 100%; /* Take full height of the container */
+    background: transparent; /* Transparent background */
+    border: none; /* No border */
+    outline: none; /* No outline */
+    border: 2px solid rgba(255, 255, 255, .2); /* Border with transparency */
+    border-radius: 40px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+    color: #fff; /* Text color */
+    padding: 20px 45px 20px 20px; /* Padding inside the input */
+}
+
+/* Styling for the placeholder text in the input */
+.input-box input::placeholder {
+    color: #fff; /* Placeholder text color */
+}
+
+/* Styling for the icon inside the input box */
+.input-box i {
+    position: absolute; /* Absolute positioning */
+    right: 20px; /* Distance from the right */
+    top: 50px; /* Distance from the top */
+    transform: translateY(-160%); /* Move the icon above the input */
+    font-size: 20px; /* Icon size */
+}
+
+/* Styling for the "Remember me" and "Forgot password" section */
+.wrapper .remember-forgot {
+    display: flex; /* Use flexbox layout */
+    justify-content: space-between; /* Space between items */
+    font-size: 14.5px; /* Font size */
+    margin: -15px 0 15px; /* Margin top and bottom with negative margin */
+}
+
+/* Styling for the checkbox input in the "Remember me" section */
+.remember-forgot label input {
+    accent-color: #fff; /* Checkbox color */
+    margin-right: 3px; /* Space between checkbox and label */
+}
+
+/* Styling for links in the "Remember me" section */
+.remember-forgot a {
+    color: #fff; /* Link text color */
+    text-decoration: none; /* No underlines */
+}
+
+/* Styling for link hover effect in the "Remember me" section */
+.remember-forgot a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Styling for the button */
+.wrapper .btn {
+    width: 100%; /* Take full width of the container */
+    height: 45px; /* Set a fixed height for the button */
+    background: #fff; /* White background */
+    border: none; /* No border */
+    outline: none; /* No outline */
+    border-radius: 40px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1); /* Box shadow for a subtle effect */
+    cursor: pointer; /* Cursor changes to pointer on hover */
+    font-size: 16px; /* Font size */
+    color: #333; /* Text color */
+    font-weight: 600; /* Bold font weight */
+}
+
+/* Styling for the registration link section */
+.wrapper .register-link {
+    font-size: 14.5px; /* Font size */
+    text-align: center; /* Center align text */
+    margin-top: 20px 0 15px; /* Margin top with no margin bottom */
+}
+
+/* Styling for links in the registration link section */
+.register-link p a {
+    color: #fff; /* Link text color */
+    text-decoration: none; /* No underlines */
+    font-weight: 600; /* Bold font weight */
+}
+
+/* Styling for link hover effect in the registration link section */
+.register-link p a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
